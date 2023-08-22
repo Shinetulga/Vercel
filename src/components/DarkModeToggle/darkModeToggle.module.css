@@ -1,0 +1,38 @@
+.container{
+  width: 42px;
+  height: 24px;
+  border: 1.5px solid #53c28b70;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon{
+  font-size: 12px;
+}
+
+.ball{
+  width: 15px;
+  height: 15px;
+  background-color: #53c28b;
+  border-radius: 50%;
+  position: absolute;
+} 
+
+/* Код нь 42px өргөн, 24px өндөртэй сав юм.
+ Энэ нь 30px хүрээний радиустай бөгөөд энэ нь гадна талын ирмэгийг тойрсон радиус юм.
+ Хилийн радиусыг 50% гэж тохируулсан бөгөөд ингэснээр өндөрөөсөө хагас дахин өргөн байх болно.
+ Код нь фонтын хэмжээ 12px, дэвсгэр өнгө #53c28b70 бүхий дүрсийг агуулдаг.
+ Код нь дүрс, дотор нь бөмбөг бүхий сав юм.
+ Дүрс нь 12px хэмжээтэй, бөмбөгний өргөн нь 15px, өндөр нь 15px юм. 
+
+ The code is a container with a width of 42px and height of 24px.
+ It has a border-radius of 30px, which is the radius around the outside edge.
+ The border-radius is set to 50% so that it will be half as wide as it is tall.
+ The code also contains an icon with font size 12px and background color #53c28b70.
+ The code is a container with an icon and a ball inside it.
+ The icon is 12px in size, and the ball has a width of 15px and height of 15px. */

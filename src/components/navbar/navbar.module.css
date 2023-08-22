@@ -1,0 +1,58 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: #53c28b;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Код нь 100px өндөртэй контейнер div-ээс эхэлдэг.
+
+ Энэ нь уян хатан шинж чанартай бөгөөд энэ нь түүний үндсэн элементийн өргөнд тааруулж сунгах боломжтой гэсэн үг юм.
+
+ justify-content шинж чанар нь зүйлсийг голд нь зэрэгцүүлж, хоорондын зай нь зүйл бүрийн хооронд хангалттай зай байгаа эсэхийг баталгаажуулдаг.
+
+ Лого div нь тод үсгийн жин, хэмжээтэй тул хуудасны бусад бичвэрээс ялгардаг.
+
+ Холбоосууд нь уян хатан шинж чанар ба завсарыг ашиглан төвд зэрэгцсэн: 20px нь тэдгээрийн хооронд 20 пикселийн зай үүсгэдэг.
+
+ Төгсгөлд нь гарахад padding өгөгдсөн: 5px; хил: байхгүй; дэвсгэр өнгө: #53c28b; курсор: заагч; 3 пикселийн хүрээний радиусыг хуудасны бусад элементүүдээс илүү тод харагдуулна.
+
+ Энэ код нь үнэгний үсэрч буй зургийн дээр "Хурдан бор үнэг залхуу нохой дээгүүр үсэрсэн" гэсэн бичвэрийг харуулах CSS-ийн хэсэг юм.
+
+ Энэ код нь гурван хэсэгтэй: 1) HTML тэмдэглэгээ болох эхний хэсэг нь "fox.jpg" нэртэй зургийн файл руу чиглэсэн src шинж чанартай img элементийг агуулна.
+
+ 2) Хоёрдахь хэсэг нь зургийн дээд талд текстийг загварчлах, байрлуулах CSS код юм; Энэ нь flexbox-ыг ашиглан хүүхдүүдээ босоо байдлаар байрлуулж, хэвтээ чиглэлд төвлүүлдэг.
+
+ 3) Гурав дахь хэсэг нь JavaScript програм бөгөөд үүнийг дарахад үүнээс бусад бүх элементүүдийг нуух болно. 
+
+
+ The code starts with a container div that is 100px tall.
+ It has flex properties, which means it can be stretched to fit the width of its parent element.
+ The justify-content property aligns items in the center and space-between makes sure there's enough room between each item.
+ The logo div has bold font weight and size, so it stands out from other text on the page.
+ The links are aligned in the center using flex properties and gap: 20px creates a 20 pixel gap between them.
+ Finally, logout is given padding: 5px; border: none; background color: #53c28b; cursor: pointer; border radius of 3 pixels to make it stand out more than other elements on the page.
+ The code is a CSS snippet that will display the text "The quick brown fox jumped over the lazy dog" on top of an image of a fox jumping.
+ This code has three parts: 1) The first part, which is the HTML markup, includes an img element with a src attribute that points to an image file called "fox.jpg".
+ 2) The second part is the CSS code for styling and positioning the text on top of the image; it uses flexbox to align its children vertically and center them horizontally.
+ 3) The third part is some JavaScript that will hide all other elements except for this one when it's clicked on. */

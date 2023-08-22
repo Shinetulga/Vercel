@@ -1,0 +1,18 @@
+.container {
+  padding: 20px;
+  cursor: pointer;
+  background-color: #53c28b;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+}
+
+
+/* Код нь дэвсгэртэй, цагаан дэвсгэртэй сав юм.
+border-radius шинж чанарыг 5px гэж тохируулсан бөгөөд энэ нь савны ирмэг дээр жигд бус хэлбэр үүсгэдэг.
+Код нь дэвсгэртэй, цагаан дэвсгэртэй савыг үүсгэдэг. 
+
+The code is a container with padding and a white background.
+The border-radius property is set to 5px, which creates an irregular shape around the edges of the container.
+The code creates a container with padding and a white background. */
